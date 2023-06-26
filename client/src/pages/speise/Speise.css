@@ -1,0 +1,52 @@
+#Speise{
+    height:100%;
+    font-size: clamp(16px, 2.5vw, 25px);
+    
+}
+#Speise #menuNavigation{
+   transition: 350ms;
+   min-height: 5vh;
+   background-color: black;
+column-gap: 15px;
+row-gap: 10px;
+ }
+
+ .image-align {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+  }
+
+
+/* CLASS NAMES */
+.decorationNone{
+    text-decoration: none;
+    color: white;
+    transition: 400ms;
+    }
+.decorationNone:hover{
+    color: orange;
+}
+
+#place{
+    transition: 350ms;
+       min-height: 65vh;
+  
+
+}
+
+
+#activeMenu{
+    color: lightgreen;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 640px) {
+    #menuNavigation{
+        
+    }
+}

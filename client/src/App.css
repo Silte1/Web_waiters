@@ -1,0 +1,25 @@
+#App{
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("./assets/image/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.appBody{
+  min-height: 50vh;
+ }
+
+.appHeader{
+  min-height: 10vh;
+  margin-bottom: 5vh;
+
+}
+.appFooter{
+  margin-top: 5vh;
+  min-height: 30vh;
+}
+
+
